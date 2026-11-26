@@ -1,0 +1,1090 @@
+{
+  "files": [
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/CHANGELOG.md",
+      "sha256": "6cfa8ca078a3137f6603b7721b1a0652f91f1ec8a6d9db12a667f2af1096d1b6",
+      "bytes": 14033
+    },
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/EXPERIMENT_PLAN.md",
+      "sha256": "be36dcc151f5942a6ab41e1a9af8e30ee4e37d7bf11b5394951513cfd4eae543",
+      "bytes": 10900
+    },
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/architecture.png",
+      "sha256": "3744bfd6a63bd8137100e32cd65630f3f879d269102052a9c44ef7aed9c5b4ed",
+      "bytes": 413107
+    },
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/lama_fallback/correction/pilot100/comparison_metrics.json",
+      "sha256": "287a852921eaf7c3a11324ad8cf0c4ef59b0db96cec64e00a84c88e378934f9e",
+      "bytes": 13344
+    },
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/lama_fallback/eval100/comparison_metrics.json",
+      "sha256": "d7e44182b17fc01e14187d9db418e0b8140e8b3478780319240fb28835e860b8",
+      "bytes": 13340
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/adapters.py",
+      "sha256": "9b54d8c0e5e4847412e766e0ae723d19bdc19c3c4e0aab2829368492af11297a",
+      "bytes": 3612
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/build_progress.py",
+      "sha256": "25821fb576c4660256cee4ce482f51eb68c2430abee6792c44b6b69f02bb615e",
+      "bytes": 11962
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/cache_ego_proposals.py",
+      "sha256": "24593b676b2810cc8410cfdbe0473832044ddad422a5b8c9c340ba5f9023d67c",
+      "bytes": 3530
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/cache_pilot_data.py",
+      "sha256": "161d9b4253d8170fa7f996a6dc0ac036b513be0c7d7b94405cd08ea921ebab00",
+      "bytes": 4831
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/cache_pilot_signs.py",
+      "sha256": "83d2cb4a7c02db181a5b3d28a0cb0b908772ef0d864fab4777dea62fe35852ca",
+      "bytes": 2985
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/corrected_objective.py",
+      "sha256": "0741f9321256284fc1a4d9dc672e8f6c960efca4a10532773c1d14c5035cfb48",
+      "bytes": 1338
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/create_artifacts.py",
+      "sha256": "4355549da3a99f5870e8da91a1690fe5ec30cf8e38fe93beb0552f10a6b97827",
+      "bytes": 28542
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/deterministic_padding.py",
+      "sha256": "a5458e3162561b73979ce8be19a83b61c054b06b5efcba758c1279ee9b65022b",
+      "bytes": 1310
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/eval_lama100.py",
+      "sha256": "97530fc5ae41800aa77a172e4b3259afbf4c4d5f0b9098598adb0990a72a6982",
+      "bytes": 5672
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/finalize_pilot_cache.py",
+      "sha256": "4db5bf0a3f41a2336738b0dc93e1513cd0ed7b6c438f94f0ff782c339afae766",
+      "bytes": 2577
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_backward_resume.py",
+      "sha256": "640848fea7cf5bfc1fc312b0c677085e1f956737ee807bc607aa0114316dc779",
+      "bytes": 6999
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_corrected_resume.py",
+      "sha256": "b555defd68732a74cbfc955b5d988f6b8ae4cb73fb163e73a6f809dca30ff92c",
+      "bytes": 7674
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_interfaces.py",
+      "sha256": "8aaafc35f86e1b5b62d454d9d1bb2853df71eb9489d48b177666741737192a01",
+      "bytes": 2232
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_lama_attachment.py",
+      "sha256": "066b670b61378abf83042364210e280ab0bda1a17abf90473a69df25e5837147",
+      "bytes": 1916
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_lama_corrected_attachment.py",
+      "sha256": "afce6a09fbc83c6032a1bb17c7ae1951efd15acbfac298f58909e0cb12efe3ec",
+      "bytes": 1971
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_lama_corrected_resume.py",
+      "sha256": "0108af5137b3037bb85f8d781eb03eb529b2167a5ed5f3f6e9a1825dc075d460",
+      "bytes": 4288
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_lama_resume.py",
+      "sha256": "5a006eced28cc4ce7ccbf656e8130a256e9ad7cbaf8148ce58d546f6c3b0e028",
+      "bytes": 4048
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_padding.py",
+      "sha256": "f71cbc370f4aa597c9927ed638dec27faf070d3d7393a1616e5a0cd4500c5764",
+      "bytes": 1098
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_real_attachment.py",
+      "sha256": "9cddf89f8518dc02e7a9bb5fbbd754b1bd1f3d7e1b8675df573c7edce03bc1e2",
+      "bytes": 7245
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/gate_residual_bound.py",
+      "sha256": "8dc47ea05d4e3775469a70e0288f7d447fc277474cd84645b2d44ac750ff38e9",
+      "bytes": 1093
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/generate_frozen_baseline.py",
+      "sha256": "7a7049bae106890e61381446efa4707ab1bc457ac03274d889369ed8ca479a2c",
+      "bytes": 5152
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/generate_guarded_pilot.py",
+      "sha256": "9ecc400c3ed01e88b4569edfc5e5f55b2e59b8341fe73a1982ebb0ac04a9a35d",
+      "bytes": 8655
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/hybrid.py",
+      "sha256": "f826663af65e587c7bdee5aee336e02ec818f471ead5c8f692ca71a8503a609b",
+      "bytes": 2186
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/inspect_backbone.py",
+      "sha256": "7e22ad74b91602b31e34788396c0a3dc6bd4c620978746bd649f45ce086d3720",
+      "bytes": 2667
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/inspect_lama_fallback.py",
+      "sha256": "1e281f2c704d83597226e79022d409aa821868e946895824ff4348e2d299f7c9",
+      "bytes": 2898
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/lama_correction.py",
+      "sha256": "f3aa6a290c1cc0cdefcfebb4bd3da7b640f9d01c553268ee8a13600a8d9dd87c",
+      "bytes": 1335
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/lama_hybrid.py",
+      "sha256": "e48221b93ee312b30685666fb0b504b0f240976386951281222b21c5c2f39f8d",
+      "bytes": 1813
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/prepare_ego_corrected_cache.py",
+      "sha256": "194888c68983311543f223c158766acc436cf588cc305a208606287096779a01",
+      "bytes": 4434
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/probe_ego_protection.py",
+      "sha256": "ad05b46a0cdbc5c0c49e1005c521872030d68a06d5cb227f8327692498809b9c",
+      "bytes": 3318
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/probe_residual_scales.py",
+      "sha256": "4cc0a8095a81f24c02f3cc7f7ddee4f521cc882970c22889b4361c27e7e407f3",
+      "bytes": 2172
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_corrected_pilot100.py",
+      "sha256": "c5456d5e02b1d285ee2c7983dbb9db8b93b6f7c274659e8811d64c1f02a04005",
+      "bytes": 2514
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_guarded_diagnostic.py",
+      "sha256": "394c269f47dcdbbaf26572f7340b475accd46e6487752feed523b2605127144d",
+      "bytes": 2886
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_lama_corrected_pilots.py",
+      "sha256": "19dc5bb25a37fa3a5df91868385422431f3cf36c5607f57de50c045ba166cb7c",
+      "bytes": 1535
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_lama_eval100.py",
+      "sha256": "e135f2340207029836cb0c1abc9969555afa94594b158a931a240bee2a3d941d",
+      "bytes": 1500
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_lama_pilots.py",
+      "sha256": "8cc6909483fb02bdffcc05d3c0f3a99f4c482a4489c27c149a468bbaf21577cc",
+      "bytes": 1497
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/run_pilot100.py",
+      "sha256": "7e4c779169396a0394bcdeb5a1ba316d81a4c9f829611d75588ffd389ee8d8c0",
+      "bytes": 2474
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/score_lama_corrected.py",
+      "sha256": "9095832d4fccf29109ccda7b98a95536daaa6c7affdb5dc9d6b376fb6789c921",
+      "bytes": 1940
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/score_lama_eval.py",
+      "sha256": "8261f5f2e690df86f8c68fc2618f25f6af8ba91cda9ecaedfc91f9ad2fe53c64",
+      "bytes": 1928
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/source_data.py",
+      "sha256": "8fbe3f50a8624a93005731322188cea08b95ae02ee8e2e16d1d1bdfd1f4be279",
+      "bytes": 4883
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/train_corrected_pilot.py",
+      "sha256": "87e0943e69be32e8c41c6dafe637e56c114e78c6c0cae41528aebc1c3d5107e8",
+      "bytes": 8681
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/train_lama_corrected_pilot.py",
+      "sha256": "cf9457e9881e3276acd34ec5126ad417f600afd53bd1faec1dc72951925ed5b8",
+      "bytes": 5595
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/train_lama_pilot.py",
+      "sha256": "e4c6cba22b9e7892c69935d30cceef0aaba2be96dde0f5952aff47ada0a86243",
+      "bytes": 5592
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/train_pilot.py",
+      "sha256": "c4b347b85d970ef0c28758336431dac683096214d1877280f1123a8ae8dfb246",
+      "bytes": 8345
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/watch_ego_probe.py",
+      "sha256": "b91ae255a082d765d81a186e33a56255e3ca7321f87e3aaf119ba156bb33bf0f",
+      "bytes": 756
+    },
+    {
+      "path": "work/lane_geometry/compvis_hybrid/watch_prepare_ego_cache.py",
+      "sha256": "c0bd86aa37b187aabaec686c0a420a6c65b3dd763d3952f6adfd92c10c39af03",
+      "bytes": 1358
+    },
+    {
+      "path": "work/lane_geometry/hybrid/adapted_layout.py",
+      "sha256": "9aee5d00864a579c3de332e88152bc6b4b69428e6812614f42ee93f5346bfef3",
+      "bytes": 1343
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_aligned_features.py",
+      "sha256": "e7b5a97f9b1e12e395a5f5bd7d764bee5bacc862dd1815c6bcbda751883fa291",
+      "bytes": 3569
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_apolloscape_access.py",
+      "sha256": "be60a1f7a6aea56c313f034ebdd0250e7697d0e69938d127368a20f60c8c0042",
+      "bytes": 1984
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_broad_masks.py",
+      "sha256": "56339a74618a78cb4ca260a87f28d762033b197ee466a26a7dfbd8829fb796f4",
+      "bytes": 1646
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_ceymo_annotations.py",
+      "sha256": "8ed941757ce4c1a690e6217b4fbedf7ecea33dd0c016385c7b9d4cd3994e9308",
+      "bytes": 3008
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_ceymo_sample.py",
+      "sha256": "a58a41886ebee281c0da590a3d3266f5279bcce6c0a954fd9d68ec2a06be52e6",
+      "bytes": 2355
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_ceymo_train.py",
+      "sha256": "0ba2911cf6ef21b55198853fd63f7657bd064d461eb6b21f1cc93273449f240b",
+      "bytes": 3188
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_component_training_shapes.py",
+      "sha256": "bb7f8af8542608ae6e9d1d8684617198218d83a8373656de334e0ac9bef4cbdc",
+      "bytes": 2320
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_context_gain.py",
+      "sha256": "731af3ed7a17379407a14fd6c0d137f912ed729da25f986defdd737661fde4f9",
+      "bytes": 4085
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_expanded_cache.py",
+      "sha256": "1b9de00458c1c0d8fdd8ea4e4e3a7264eb43697ca6c45da9f0f16548af65a7af",
+      "bytes": 1913
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_expanded_layout.py",
+      "sha256": "3c79f07c8fb56d4a0efb48f9204559503e42ab14a06278e793e2c8bbdb86a663",
+      "bytes": 2164
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_feature_sources.py",
+      "sha256": "9f205db358c2265f4527d3dfa9cde1d8fd07e236890283dd82c0db3f87e5ccb1",
+      "bytes": 4364
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_instance_targets.py",
+      "sha256": "d2ef2e35f2cfdc408974556cb0f606ebe3bfef65272f68e9b2fd92acc84c6301",
+      "bytes": 1481
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_marking_checkpoints.py",
+      "sha256": "a0685ec552552280d9241bb339f5cf610d6a1a4812abe2cf1e5008089b9e0804",
+      "bytes": 2072
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_masks.py",
+      "sha256": "a2b885ec2c25701d974cefc3cc510ec54fcd593a9cde7edf1b853f8f178bf46c",
+      "bytes": 4399
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_predicted_shape_cache.py",
+      "sha256": "96e8adf9de64232250ca9b6caaa1f8e0e095bcf797bad6acbcbf06bedbf6fa72",
+      "bytes": 2300
+    },
+    {
+      "path": "work/lane_geometry/hybrid/audit_train_sign_cues.py",
+      "sha256": "2da049a9bae51f6924aaaf8f1b386dbd03bf45d0d0b5f867e3a2a55a1ccf6f1d",
+      "bytes": 3944
+    },
+    {
+      "path": "work/lane_geometry/hybrid/bootstrap_shape_domain.py",
+      "sha256": "4ceb9b89864ea42cd465b3734b8e465cdc7e2b2b1dee8fc305209854c14612aa",
+      "bytes": 1606
+    },
+    {
+      "path": "work/lane_geometry/hybrid/broad_selection.py",
+      "sha256": "479e3c005d727e13d44214cd030887c3e0e62edfc5ae49ac7457baed1ac2dbe0",
+      "bytes": 524
+    },
+    {
+      "path": "work/lane_geometry/hybrid/build_inspection_page.py",
+      "sha256": "8d79b897d63b229213d2aa797169f05c207ed64660dfee5c937734c1ba1c6578",
+      "bytes": 7585
+    },
+    {
+      "path": "work/lane_geometry/hybrid/build_lane_association_review.py",
+      "sha256": "c5dc44a0404fb0cb4a8dc1d0753b32df9aa77463cc3e8136a07e66ebddd5870d",
+      "bytes": 8770
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_broad_features.py",
+      "sha256": "d4a12d72a6a86872555dd366ceeed823a94efc69c1e27d7dbad98a6a2d4e7c66",
+      "bytes": 4096
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_broad_geometry.py",
+      "sha256": "b735f5ffcb6cae7b62b743682729a166ca086acc5313fe7546fbea9e5931ba23",
+      "bytes": 3461
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_component_training_shapes.py",
+      "sha256": "b3fd9ba72d9df5779e152f2ff4a430897544e3f65d8aa16e7870c6c2eb12f6bd",
+      "bytes": 5193
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_expanded_features.py",
+      "sha256": "1771336dfc827ec6de39085f34e4406dfe2dff0799f87461964de67fa1538c28",
+      "bytes": 4099
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_expanded_geometry.py",
+      "sha256": "db7c9c8b837765340568e84cb4476e8c81e461c708cca160bb9ac3a2152a3b6a",
+      "bytes": 3467
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_expanded_layout_features.py",
+      "sha256": "3694487b51cbdf3ddacc894e5e6802dc1e6a16c26f8e15ab5ab17df3759c286b",
+      "bytes": 2641
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_expanded_layout_targets.py",
+      "sha256": "8a9f5b805f6f09e5d816cbc069e950a3d5de260370bbb85d7bd8ae0538bba331",
+      "bytes": 2420
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_marking_targets.py",
+      "sha256": "cf6e21b90b7cda786320eb0d997560bb3a6788505f0abc02c4aa72672fa51e10",
+      "bytes": 2433
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_pilot_features.py",
+      "sha256": "7f9fba1daddb12f506bb1a902862d77f6c26c0c6680cf7dabfa224225a05cd95",
+      "bytes": 3677
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_pilot_geometry.py",
+      "sha256": "b850dbe91dd29151dd0e234cba3d20ea0566e316880883d36ad4faf4ec1143f7",
+      "bytes": 3164
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_predicted_marking_shapes.py",
+      "sha256": "1f22123b3359ad601cc07a50e935600c4115d2b10668103becbf42213c5df574",
+      "bytes": 4802
+    },
+    {
+      "path": "work/lane_geometry/hybrid/cache_scene_context.py",
+      "sha256": "164abf6ed77d3bf52917b99e5d5371e43788b79a9fda80a270866cde95f54dfe",
+      "bytes": 2660
+    },
+    {
+      "path": "work/lane_geometry/hybrid/ceymo_data.py",
+      "sha256": "a7189f6fa5bf8cb5c6e818a31e8f0e90e02161889c0166181909cb6fc225a07b",
+      "bytes": 1876
+    },
+    {
+      "path": "work/lane_geometry/hybrid/ceymo_layout.py",
+      "sha256": "b0d48d1ca6ec064b5868047518266935c064af34a7423e601fd69da91129ef3d",
+      "bytes": 1513
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_attention_scope.py",
+      "sha256": "f07487d5b313d97e9c647bb06b137a478a80e6ef92476e665e9451240a7f67f9",
+      "bytes": 4891
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_components.py",
+      "sha256": "f9886dfbfe32cddcc17945a04486bb8492533d0a7d737eb3729a806754c7530b",
+      "bytes": 2597
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_condlane_features.py",
+      "sha256": "30c71e71ad5ccc731057fd9aac6de2361a6b97df480d35bad784d853ea630143",
+      "bytes": 1939
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_decoded_loss.py",
+      "sha256": "c5c4e2143fb3fd5cc8d397a90068b66391621da80efac86a8e51931f8b227424",
+      "bytes": 5419
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_dual_trainmode.py",
+      "sha256": "d0d3b4baa7f47a83a22beec8a23cf70df8c38f4f2d575d1f14c3c9afd5a60d38",
+      "bytes": 4039
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_full_klein.py",
+      "sha256": "cf14e9c4e07422f15666d209ccd195cd7ec1a6f8b36918e8d4013ee3542afbda",
+      "bytes": 4045
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_image_context_full.py",
+      "sha256": "be091d70523e197e2eb30bcfc3afd5a48d37d3a913b28ac580ea59261172944e",
+      "bytes": 4294
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_scene_context.py",
+      "sha256": "777d1bdaebed6a441068ef9e441d0d0aaad863766fb8908099019c8fdd2fcd01",
+      "bytes": 1194
+    },
+    {
+      "path": "work/lane_geometry/hybrid/check_scene_context_full.py",
+      "sha256": "32da996b8db1d8580776d04dc2cb98da6a9fc13bce4c399c128f7b346cb2ce25",
+      "bytes": 4444
+    },
+    {
+      "path": "work/lane_geometry/hybrid/condlane_features.py",
+      "sha256": "b2130940b56fdeb818c997837ff092abada3f68133f54c88367de1f4fba0ca4d",
+      "bytes": 2682
+    },
+    {
+      "path": "work/lane_geometry/hybrid/coordinates.py",
+      "sha256": "d878dc649c06a60f817e75eb86856b5aeab1f2536fdb313f6efe456396431d08",
+      "bytes": 1139
+    },
+    {
+      "path": "work/lane_geometry/hybrid/diagnose_mask_compositing.py",
+      "sha256": "91b38103b6a3a16b0706fe952e1d627fd76e89b8ffc4b0e17ba660fdf8903c22",
+      "bytes": 3430
+    },
+    {
+      "path": "work/lane_geometry/hybrid/diagnose_roi_exclusions.py",
+      "sha256": "a4a96042230afa96db28e6c0ea3c55b7b730a4bdd457f269b39ce5ff619de55e",
+      "bytes": 3158
+    },
+    {
+      "path": "work/lane_geometry/hybrid/directional_instances.py",
+      "sha256": "160ea80795368d37149d084fc1d760316c7d6bec81e9c30c99689c3b9f0dd7ff",
+      "bytes": 2297
+    },
+    {
+      "path": "work/lane_geometry/hybrid/download_ceymo_train.py",
+      "sha256": "46a936b8c5bd9f712901674104d14484c194e37996415db93b37bf57b3097654",
+      "bytes": 3796
+    },
+    {
+      "path": "work/lane_geometry/hybrid/edit_roi_head.py",
+      "sha256": "238f9b5c992012eda5dd9a16d8bdb0944eb371614c416bcb57e1f1497195c442",
+      "bytes": 1086
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_adapted_layout.py",
+      "sha256": "2514bfeed12007d51e285d172d12228fbdb373c8e7464a7e6d9631ad581883aa",
+      "bytes": 2593
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_attention_study.py",
+      "sha256": "0a855dd1b98efa6aad5def165c16f2f28a1d90f302ce02a7ec73680f09dbb711",
+      "bytes": 7894
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_broad_validation.py",
+      "sha256": "705018629b66f8896c3c2d5f12304d3082df99f403136fd2c459376d36131da3",
+      "bytes": 8095
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_ceymo_pilot.py",
+      "sha256": "8bde89dc81c5d7f43ef76517364c88e9d31e9b75376deee6f5d66785afacc840",
+      "bytes": 3997
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_component_domain_study.py",
+      "sha256": "b82de4a2c283596eb7eb7e3790a1fc5f6a27dc421a2b54cf702dc0e4c7187a17",
+      "bytes": 5942
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_decoded_study.py",
+      "sha256": "71a0f75d1c0e0d85e66513b034e394e22a7c5643a3694385da1b7259c9a4ae11",
+      "bytes": 7888
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_expanded_study.py",
+      "sha256": "f6963599c0e6d44176c28e69c314b9d8cba123a02d0a7689216783d4ff957da7",
+      "bytes": 7992
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_feature_study.py",
+      "sha256": "af2dc2ada7c0e70912fa35540f01a2996543d585b8b2b76603c42eedb4d91edf",
+      "bytes": 7984
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_global_layout.py",
+      "sha256": "f8d2d6f817bf29e8ff75a8d27e73a085de6b1a762e977f0a04f8246a0675f6b2",
+      "bytes": 3523
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_image_panel200.py",
+      "sha256": "b9e8c83774305fdd23206fac21ea4b3bddb046a58c3f6d15c82f4361617469d8",
+      "bytes": 7672
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_image_pilot.py",
+      "sha256": "42b34af701363735b355b21e353da22389394f51b248b8dddf4ed4c48e55587e",
+      "bytes": 6672
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_image_pilot200.py",
+      "sha256": "85d4e6b11f82042d815a62fb892d0c9ca3e900612e8e83bbd15c4a4b9859ec4f",
+      "bytes": 7002
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_instance_class_study.py",
+      "sha256": "73e483fc122e688a746be0de5f2ad624a36a04d3b9a7164e76d457631687afff",
+      "bytes": 4588
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_instance_pass1.py",
+      "sha256": "e279ddc9e2e92e3c33e5dc6b606849e66e6bebc347a6557b30d63840554d6380",
+      "bytes": 4397
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_instance_pilot.py",
+      "sha256": "53f60bb15120d92f4a13b8c98262774d0e21bfacb3cf29880047718479668b2b",
+      "bytes": 4409
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_lane_attention.py",
+      "sha256": "d4be84e9d59237817adbafe064ba73d6da495d66f9b1b634eb2934bf29c4754b",
+      "bytes": 8029
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_lane_generation.py",
+      "sha256": "64c7ff9af7248f61d3cebe7d4b005aa7aa63b0e08fff8dd36a5ad8bf04073993",
+      "bytes": 8038
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_layout_sampling.py",
+      "sha256": "abcad9ad63418d34310db6ede1f9f9c528c386de511bc8415b698df196295a4e",
+      "bytes": 3533
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_marking_layout.py",
+      "sha256": "e58ad7e5ef60549557be1b075c3c1a0c35d1d4bdefc500308e9ac7f74556b2a2",
+      "bytes": 3216
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_scene_context.py",
+      "sha256": "dea52e130444609fddfa3c16d6944a4c923e1ef8a5070ca30ea762e744fc28cc",
+      "bytes": 8265
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_secondpass_study.py",
+      "sha256": "d0b695c678e764586d0ca98c21c574934a98ce208a4090500fac7eb28b29a4eb",
+      "bytes": 7996
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_shape_component.py",
+      "sha256": "574c5207d27960d678ab1715faf64c70be90cc0fb99681160b1ec53f3c5f68f9",
+      "bytes": 5710
+    },
+    {
+      "path": "work/lane_geometry/hybrid/evaluate_shape_proposals.py",
+      "sha256": "f96985fd02d4325337e791bf02d0d9ac4d6cf7ef0231950394c029800d5f5f10",
+      "bytes": 5679
+    },
+    {
+      "path": "work/lane_geometry/hybrid/expanded_selection.py",
+      "sha256": "d8b5725a674fa8b20b868151bad7f2c0ad3da1aeee1b0bce187a2006893d4563",
+      "bytes": 521
+    },
+    {
+      "path": "work/lane_geometry/hybrid/feature_alignment.py",
+      "sha256": "3e3ce242594847b24fa713389de43b09aa3021146eaac03a4be8ff6f31207f17",
+      "bytes": 1507
+    },
+    {
+      "path": "work/lane_geometry/hybrid/filter_sign_cues.py",
+      "sha256": "65c98596e8f8fecbc6bb5fe4d3dc9a79dadcca8fe11b96cfd1c066d81641c161",
+      "bytes": 4147
+    },
+    {
+      "path": "work/lane_geometry/hybrid/gate_directional_instances.py",
+      "sha256": "e6b9b466474a932e6e5c47648e53f83a313a42671224f5322e0ca1b3071f56fb",
+      "bytes": 4753
+    },
+    {
+      "path": "work/lane_geometry/hybrid/global_marking_layout.py",
+      "sha256": "5ba4e7842c1f67305f268bf82be47ac87a57142fc406b08cec43569082488e0e",
+      "bytes": 1123
+    },
+    {
+      "path": "work/lane_geometry/hybrid/image_context.py",
+      "sha256": "b9e38effbce338d234a1dcefe65c2a1175831cffddebee45cff4bd9d66807b86",
+      "bytes": 615
+    },
+    {
+      "path": "work/lane_geometry/hybrid/import_lane_association.py",
+      "sha256": "fdfc211a91238b522c47ce7cc1d237a0d41c2577cbca7708192135156c5f86cb",
+      "bytes": 3566
+    },
+    {
+      "path": "work/lane_geometry/hybrid/inspect_generate.py",
+      "sha256": "930d59debcd1c3be03bf0ceadc45320ccd4ade522e922c1472156967d9e2bbce",
+      "bytes": 5323
+    },
+    {
+      "path": "work/lane_geometry/hybrid/klein_bridge.py",
+      "sha256": "bb00f9b594ed9bfd8cfc708bc63f723c56c46f0817be728fc1209410768fe510",
+      "bytes": 1277
+    },
+    {
+      "path": "work/lane_geometry/hybrid/layout_capacity_diagnostic.py",
+      "sha256": "709be09bc54d00e165813775cd28a5963947ff11c5b5317af2bc28480f4c4cb5",
+      "bytes": 5094
+    },
+    {
+      "path": "work/lane_geometry/hybrid/marking_layout.py",
+      "sha256": "1f9dd8174a3e598e65813f85a96bf96e457255a232748c2877e772c170e3d455",
+      "bytes": 725
+    },
+    {
+      "path": "work/lane_geometry/hybrid/marking_shape.py",
+      "sha256": "744d129f266d90752ccfe3ffa6da409632d08a27bbb83cd4ebcab6dbd121e66b",
+      "bytes": 1057
+    },
+    {
+      "path": "work/lane_geometry/hybrid/pilot_marking_shape_classifier.py",
+      "sha256": "5b0f6fcb918c25fbe8a1d2502548942295e716f50d0b90334bfe3d86707bdd8f",
+      "bytes": 4685
+    },
+    {
+      "path": "work/lane_geometry/hybrid/pilot_selection.py",
+      "sha256": "6fec354dd716f274e59d5612267c2bb6f231adf55f68ea57145936df5b0067bb",
+      "bytes": 1211
+    },
+    {
+      "path": "work/lane_geometry/hybrid/prepare_ceymo_arrow_balance.py",
+      "sha256": "4d53533e14b288a1e399e1d3f82ec482f817f9a820877fca2ae1367fef35c1fb",
+      "bytes": 1214
+    },
+    {
+      "path": "work/lane_geometry/hybrid/prepare_ceymo_long.py",
+      "sha256": "80f841f08333710ef2794f2d855fdc0ced2f848b4885dcaa084a3e3475ff338d",
+      "bytes": 1617
+    },
+    {
+      "path": "work/lane_geometry/hybrid/prepare_ceymo_protocol.py",
+      "sha256": "7290484806876591fec41068ab88d3e9e15093942fe02c3d3825783f2ce5da2e",
+      "bytes": 1399
+    },
+    {
+      "path": "work/lane_geometry/hybrid/prepare_inspection.py",
+      "sha256": "f95b6b86b8df04a5ac0c0673bdfb025dde9701f3b90c236244a603db24d0632f",
+      "bytes": 4400
+    },
+    {
+      "path": "work/lane_geometry/hybrid/preview_road_snow_domain.py",
+      "sha256": "50ec2b4cc305dad7972aeebdb3588edb6753b7c697d519af1b0ec09af158e074",
+      "bytes": 4016
+    },
+    {
+      "path": "work/lane_geometry/hybrid/probe_directional_sampling_transfer.py",
+      "sha256": "cc3791c5337e02aea28186b4fb78eca2366fa35a11cd8b91de294521bcf5802f",
+      "bytes": 3398
+    },
+    {
+      "path": "work/lane_geometry/hybrid/probe_directional_transfer.py",
+      "sha256": "0e553161aef89d6dd5e4306ada232fbf880892b7c8d2e68526c3539f8ce96aa3",
+      "bytes": 3251
+    },
+    {
+      "path": "work/lane_geometry/hybrid/probe_instance_domain_transfer.py",
+      "sha256": "1ba443924f4cccad96063fc294aea69854bc5922ab5fe0acf77d279e9cfdde03",
+      "bytes": 3764
+    },
+    {
+      "path": "work/lane_geometry/hybrid/probe_marking_teacher.py",
+      "sha256": "37bace0ab500ef92e9e571a9f2c8086eca62709e4e3ce9467a13dffbce72c1c3",
+      "bytes": 4831
+    },
+    {
+      "path": "work/lane_geometry/hybrid/probe_sign_arrows.py",
+      "sha256": "5fe3896f5007dbcd50c6640c77dcfaa8517275546465226508c9335ac8ac294d",
+      "bytes": 4798
+    },
+    {
+      "path": "work/lane_geometry/hybrid/refine_ego_sam2.py",
+      "sha256": "9021ea2b8373dabbf4880e33fb152b987a57bd02792fb0c1e0b8aa7ff848eecb",
+      "bytes": 4864
+    },
+    {
+      "path": "work/lane_geometry/hybrid/refine_sign_probe.py",
+      "sha256": "a5558d7d649ccc296193d012607cf482661d0f75f15a4cb530a5e7b17aec0ce1",
+      "bytes": 2149
+    },
+    {
+      "path": "work/lane_geometry/hybrid/report_roi_pilot.py",
+      "sha256": "a12e1b7308b2a3d813830208ad6a6a29305f7167fd29ff325534de016ebeee94",
+      "bytes": 1488
+    },
+    {
+      "path": "work/lane_geometry/hybrid/review_prototype.py",
+      "sha256": "35261930ee409083a563683236576be4c69d98533c439ba6828274d90c86c9ad",
+      "bytes": 818
+    },
+    {
+      "path": "work/lane_geometry/hybrid/road_only.py",
+      "sha256": "a1f62b26389e6d8fe3994bd7d1079708c385c3c77bb39fbb8c89186ab595b229",
+      "bytes": 1461
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_attention_study.py",
+      "sha256": "09fc246669b906a94716068fec1ced4e9cb944c3d0dde7084fd0248be65343e0",
+      "bytes": 1404
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_broad_validation.py",
+      "sha256": "db55f4e10ba0672bf9e796ead46e910549f99aae83f2182ca55cb558cd66370f",
+      "bytes": 2893
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_ceymo_arrow_balance.py",
+      "sha256": "600b339c9a00bfa342e48f28f559f83c4db9fefd5b8a41212b041c8054870b98",
+      "bytes": 3319
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_ceymo_directional.py",
+      "sha256": "79679df192a4d0bcab3c70191ea671c9be9a2a0cfc8cd7c5b3acccdd1e498c7d",
+      "bytes": 1343
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_ceymo_pilot.py",
+      "sha256": "1940f42439f4f70e51ae27e6b0ac706b0894fb0d5bb5a3b79e1ddba1c219b0ea",
+      "bytes": 1717
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_component_domain_study.py",
+      "sha256": "67eec6f961dc708c0126903382f9381ce835efc353bcf210fced0387a7be1fa3",
+      "bytes": 3168
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_decoded_study.py",
+      "sha256": "a77d398ba5c1ccd47f938e63e8b620ac09e9e950a9fbbeab0e3d17d67ab03874",
+      "bytes": 2099
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_encoder_layout.py",
+      "sha256": "fc1bc6ec48dbda1c63914cabe59a816ffb3c2f791c335a3cd55c9899aa89d5aa",
+      "bytes": 3002
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_expanded_cache.py",
+      "sha256": "35337335a716164688ef92836b617c55ee95519395d8d4d6220b0c8bd2ec9a4a",
+      "bytes": 2518
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_expanded_layout_cache.py",
+      "sha256": "c85b7d4ccf96849c88fc17370861ae389074b5e968c13c1e6ebe02d2fd9be635",
+      "bytes": 1599
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_expanded_study.py",
+      "sha256": "dc9977fc0c61f8ae7ce679b3cafe436b10de5558f15b62a1c9f889c463effdef",
+      "bytes": 2206
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_feature_study.py",
+      "sha256": "064d3c1c6d7318ab03995ba5cd1bf694225b9ea6fd18933aea590b195a73317c",
+      "bytes": 1764
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_first_pilots.py",
+      "sha256": "bc48f0e44af0d8210c8856d4e4c82f480914f23f66d7da319d162edc75df1682",
+      "bytes": 1619
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_global_layout.py",
+      "sha256": "1b877c80024ef26e3a38e6a9170914bc38d1659bca855273f706175d7e6ae733",
+      "bytes": 2900
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_instance_class_study.py",
+      "sha256": "e6756fc84056f828336fee58a8239f11454fbb5e5b6e6cb732b4919b09188d98",
+      "bytes": 1656
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_instance_pass1.py",
+      "sha256": "6c3b28c388c37afe2498ef73910dd032f5dcf476bef52a31ab1c803afece0424",
+      "bytes": 1227
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_lane_attention.py",
+      "sha256": "ac66a984c686fac03de994712fde8ff40959df4de607106d8af781c074d30708",
+      "bytes": 2423
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_lane_generation.py",
+      "sha256": "3f17bad4937ef1a73520f9d7d9d536151e41faca46387f592f82d63577e6e6e0",
+      "bytes": 2895
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_layout_sampling.py",
+      "sha256": "c07b3bccf1454b8234b585705437df1eb5106d10a25379516e14649e1e4efbb6",
+      "bytes": 3419
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_marking_layout.py",
+      "sha256": "aedaa292e84fb99a85da88323876caba29031e857cee235fd5a0d4d8ab5fcb2b",
+      "bytes": 1480
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_panel200.py",
+      "sha256": "67faab64db6571105ba43289d8bf5d308b3fb378a639e1c7a18ca12c0a19e98b",
+      "bytes": 1325
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_scene_context.py",
+      "sha256": "c8ebfbbc374c83cfb6db4a5e1ea4c707ceb7695e3fa6139a9a4e3345dd2dc668",
+      "bytes": 3292
+    },
+    {
+      "path": "work/lane_geometry/hybrid/run_secondpass_study.py",
+      "sha256": "a2dc1ba015beb86b35b7cb667e3e2ed094da1dbfe33b27d70186d94e60cc8ecf",
+      "bytes": 2227
+    },
+    {
+      "path": "work/lane_geometry/hybrid/scene_context.py",
+      "sha256": "8b67e73be4fb60cc1c0e951b8dc7ac4e316a644eb2eb84e10009f260ddc68708",
+      "bytes": 797
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_attention_study.py",
+      "sha256": "efec2f79066d3ddda83ef6424cb12bbfdc6a3ab1db2524d5313c2253793a0213",
+      "bytes": 3889
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_broad_validation.py",
+      "sha256": "c0932e82a800125cf9d0445547ce3fbd8dac43dc87aae6f3632e082e46b9784f",
+      "bytes": 3712
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_decoded_study.py",
+      "sha256": "ff13410458001beb1f1340e174218e9177292c21e5b56175c3495a66efbfeff5",
+      "bytes": 4235
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_expanded_study.py",
+      "sha256": "35544fe4899399e9a9b9a36bcd7429b7e709cb1f418917f27381604730cbaf3c",
+      "bytes": 3934
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_feature_study.py",
+      "sha256": "830626a3a880aef8f91b35e9476bdfb38b3563e4936556e6961ca096999d763b",
+      "bytes": 3939
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_lane_attention.py",
+      "sha256": "a000f0b19221c825bfbd49ee9aadbbbaff1d38356aee0e91a58ef2dd7bd89e20",
+      "bytes": 3787
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_lane_generation.py",
+      "sha256": "1dcf0ed596fff6c1a977023d05ed2f1ae6ffcc4303b17a9df3cc63fe19e1b3d0",
+      "bytes": 3780
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_layout_sampling.py",
+      "sha256": "d5e934d0b9324460970cd3e2980677f1477f9e3f396fbd1b97527e817bb898b7",
+      "bytes": 4164
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_panel200.py",
+      "sha256": "496a5b5a9b532fc4423b6f34234fa88182695c6e17bf701d15e86c5f1eedd028",
+      "bytes": 3905
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_scene_context.py",
+      "sha256": "f6148d91e8f42a341eb699193477ef3da2ab4e72c218248a6e451e189d4de27d",
+      "bytes": 3832
+    },
+    {
+      "path": "work/lane_geometry/hybrid/score_secondpass_study.py",
+      "sha256": "859af9c47212a52eac483c46b527c286108920b39f87f4d782ff87990c97bee5",
+      "bytes": 3752
+    },
+    {
+      "path": "work/lane_geometry/hybrid/sign_icon_geometry.py",
+      "sha256": "095bbf4c6ecb8c07bb4c2ba4333952953cc2c45eaa227aff566fa2273ad7f774",
+      "bytes": 1408
+    },
+    {
+      "path": "work/lane_geometry/hybrid/spatial_adapter.py",
+      "sha256": "3fe70568b552a2852bb2abedbb5eff31cde34cc5d8e096b8ae5274d3a98ec620",
+      "bytes": 1597
+    },
+    {
+      "path": "work/lane_geometry/hybrid/test_lanes200.py",
+      "sha256": "323894e0607457c894284e73df6ba19bf506fc16f7da9d64e6687a4f799f215b",
+      "bytes": 6380
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_adapted_layout.py",
+      "sha256": "0378afc8def7d2176600fc23c4fd8f6887fe288990c22880ba7adcbd6fbbd29f",
+      "bytes": 4532
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_attention_study.py",
+      "sha256": "9d808b16cf279f8425db415b9f3f57cd3933f675fc2fe0bffed2df2376ddfba8",
+      "bytes": 6887
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_ceymo_arrow_balance.py",
+      "sha256": "f6182369bfaeb4108c03c82bc519339b6ab353d1690b84df50c0847c5c6dbbd8",
+      "bytes": 7656
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_ceymo_directional.py",
+      "sha256": "fc5de55de3e7f966cc640f59f75cdd79ec2d475daf14563d1ddb2dffe7a64415",
+      "bytes": 6432
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_ceymo_pilot.py",
+      "sha256": "039c0cb4e7d38e0631a39af330d24e8d294f8b4c71bd134a520812a5d79ecad9",
+      "bytes": 4379
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_component_domain_study.py",
+      "sha256": "c865bbb00f6a43b40ec37a3d329215f1c8e59917ecf36cde87266b0ce902c628",
+      "bytes": 6064
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_decoded_study.py",
+      "sha256": "a6bc491d92ab2289c34820f8cdb56a5d0b125811384e304befb4484ee90f5b3e",
+      "bytes": 8256
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_edit_roi.py",
+      "sha256": "e483add01ba8cd5c978c23dfb24d3ca5db2a3e46fa5ba03bdf557e8d0880f322",
+      "bytes": 7898
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_expanded_study.py",
+      "sha256": "927dfbecaa3ba0d5bcf18684ac114d6b894aa0704ce92b83dda8720fd00c90fb",
+      "bytes": 7248
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_feature_study.py",
+      "sha256": "49c0cc1afba8167436825d80b0ee46f7ea5e645e36443fa1899987317036ba09",
+      "bytes": 6970
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_global_layout.py",
+      "sha256": "514731fe49b99dd368ff00f45be67cabbada484234f436fc02ad8092d963c803",
+      "bytes": 4173
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_image_pilot.py",
+      "sha256": "529b5865e55ef5e9ced2c23f2743c61b556c34c135e8409ee789d3ee65fe8a90",
+      "bytes": 5580
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_image_pilot200.py",
+      "sha256": "81476fa6bbc5c1b72a87ebaf88a3f0483a5fa99f5a1d06c6968e878c8829d211",
+      "bytes": 5975
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_instance_class_study.py",
+      "sha256": "d578d26260d9b4c3b996e3336005bd3b559c7cb8c12cdcf83518d1b8480a702f",
+      "bytes": 5602
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_instance_pass1.py",
+      "sha256": "717dd5fd1a2b08c2220a73adadbf572138a5d03fcd56ef1dd1765aaf5bd29b6e",
+      "bytes": 4896
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_instance_pilot.py",
+      "sha256": "be86fb4fe0519bcc483c982c902190d00e10b857f105a48e1ea51360ed50b825",
+      "bytes": 4731
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_lane_attention.py",
+      "sha256": "4eb9d4280b5a0a3f60066a8b70e5d6e9ab5bfea4cabbbadb648e509def0586a9",
+      "bytes": 7789
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_lane_generation.py",
+      "sha256": "15258ac534ef37f734c2fad0cc4768edbec0a4482d446a80c8262ff53dbae77b",
+      "bytes": 7633
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_layout_sampling.py",
+      "sha256": "119601edde5cbe673f41e0c60a48873a6aff1663c310777fbe330d74a2732737",
+      "bytes": 4437
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_marking_layout.py",
+      "sha256": "7a98fc471b0690dc7b4fca1f4e2431c357ce3aa1420bb3818c56d65b5d7027aa",
+      "bytes": 3223
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_scene_context.py",
+      "sha256": "f4035bd5ce9a5e3ec592b2089aa2979104bdd3b4bf1782aee65d240c2379035a",
+      "bytes": 8339
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_secondpass_study.py",
+      "sha256": "50bf8e283f2f6c72f422f2b435e4155dedf80e0e678f88fc27631b9bd84cd4ef",
+      "bytes": 7260
+    },
+    {
+      "path": "work/lane_geometry/hybrid/train_shape_domain_study.py",
+      "sha256": "d603b79060c68a132a368fb98b96a6fa9b5f431f966a10f0b10e345843cae297",
+      "bytes": 5540
+    },
+    {
+      "path": "work/lane_geometry/hybrid/watch_ceymo_preparation.py",
+      "sha256": "079767f341284a84947f67f3c886e20de6a36264e825c55dfdb989c533cba424",
+      "bytes": 1712
+    },
+    {
+      "path": "work/lane_geometry/hybrid/watch_component_shape_audit.py",
+      "sha256": "afabeb86ca49cfdcef4a96546cd958f802d9e75619f1f6534b5cdba347c2911b",
+      "bytes": 728
+    },
+    {
+      "path": "outputs/lane_geometry/compvis_hybrid/FINAL_RESULTS.md",
+      "sha256": "e27b4cb4ff1dc80f9d13caf44fd401569d4de14b38c6ca73f6ddf7e7057f2387",
+      "bytes": 1254
+    }
+  ],
+  "excluded": "datasets, annotations, pretrained weights, checkpoints, environments, secrets, internal handoffs; public text paths anonymized"
+}
